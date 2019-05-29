@@ -38,3 +38,18 @@ func (d *Date) SetDay(day int) error {
 	d.day = day
 	return nil
 }
+
+// Year return year from date
+func (d *Date) Year() int {
+	return d.year
+}
+
+// Month return month from date
+func (d *Date) Month() int {
+	return d.month
+}
+
+// Day return day from date
+func (d *Date) Day() int {
+	return d.day
+}
